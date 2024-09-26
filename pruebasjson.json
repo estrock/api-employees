@@ -1,0 +1,41 @@
+
+  {
+  "id":"id",
+  "nombre":"juan",
+  "apellido":"ap ellido",
+  "correo":"juan.perez@hotmail.com",
+  "puesto":"puesto1",
+  "salario":10,
+  "fechaCont": "2022-10-10",
+  "idRolFK": 1,
+  "idDepartmentFK": 1
+}
+
+{
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "correo": "juan.perez@example.com",
+      "puesto": "Gerente",
+      "salario": "75000.00",
+      "fechaCont": "2022-10-10",
+      "idRolFK": 1,
+      "idDepartmentFK": 1
+}
+
+// -----------------//////// Rutas para paginar:
+
+// http://localhost/proyectoprueba/employees/?pagina=1
+
+// -----------------//////// Rutas para filtrar por nombre
+
+// http://localhost/proyectoprueba/employees/?nombre="luis"
+
+// -----------------//////// Rutas para filtrar por nombre
+
+// http://localhost/proyectoprueba/employees/?departamento="it"
+
+
+
+// -----------------//////// Rutas para filtrarpor id
+
+// http://localhost/proyectoprueba/employees/1
